@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Expo PKK | XII RPL Kelompok 5</title>
+    <!-- Bootstrap icons-->
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/custom.ct.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#page-top">EXPO PKK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a style="cursor: pointer;" class="nav-link me-lg-3"
+                            onclick="product()">Product</a></li>
+                    <li class="nav-item"><a style="cursor: pointer;" class="nav-link me-lg-3" onclick="team()">Team</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#feedbackModal">
+                    <span class="d-flex align-items-center">
+                        <i class="bi bi-chat-dots-fill me-2"></i>
+                        <span class="small">Contact</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <script>
+        function product() {
+            document.getElementById("product").scrollIntoView();
+        }
+
+
+        function team() {
+            document.getElementById("team").scrollIntoView();
+        }
+    </script>
+    <!-- Call to action section-->
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h3 class="text-white typewrite wrap display-4" data-period="1000" data-type='["Start Shopping."]'>
+                    Welcome
+                </h3>
+                <a style="width: 200px;cursor: pointer;" class="btn btn-outline-light py-2 px-4 rounded-pill"
+                    onclick="product()">Shopping Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="product" class="container mt-3 mb-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shopping</li>
+            </ol>
+        </nav>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div data-aos="flip-left" class="col">
+                <div class="card shadow-sm">
+                    <img src="assets/img/lampu-3.jpg" class="bd-placeholder-img card-img-top" height="225">
+                    <div class="card-body">
+                        <p class="card-text">Lampu Tidur </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="product-lampu.html" class="btn btn-sm btn-outline-secondary">Lihat</a>
+                                <a target="_blank"
+                                    href="https://wa.me/6287732583746?text=Halo,+Saya+ingin+membeli+lampu+hias"
+                                    class="btn btn-sm btn-outline-secondary">Beli
+                                    Sekarang</a>
+                            </div>
+                            <small class="text-muted">Rp. xx.xxx</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <main class="container" id="team">
+        <div class="my-3 p-3 bg-body rounded shadow-sm">
+            <h6 class="border-bottom pb-2 mb-0">Team Expo</h6>
+            <div class="d-flex text-muted pt-3">
+                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong class="text-gray-dark">Ersa Aulia Fatmawati</strong>
+                    </div>
+                    <span class="d-block">Absen : </span>
+                </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+                <img src="assets/feri.jpg" class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong class="text-gray-dark">Feri Hidayatulloh</strong>
+                    </div>
+                    <span class="d-block">Absen : 13</span>
+                </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong class="text-gray-dark">M Robiuz </strong>
+                    </div>
+                    <span class="d-block">Absen : </span>
+                </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong class="text-gray-dark">Panca Argi Atmoko</strong>
+                    </div>
+                    <span class="d-block">Absen : </span>
+                </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong class="text-gray-dark">Reva Novtania</strong>
+                    </div>
+                    <span class="d-block">Absen : </span>
+                </div>
+            </div>
+            <div class="d-flex text-muted pt-3">
+                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex justify-content-between">
+                        <strong class="text-gray-dark">Ersa Aulia Fatmawati</strong>
+                    </div>
+                    <span class="d-block">Absen : </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="foot">
+        <div class="containerx">
+            <div class="progress-bar" id="mybar"></div>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function () {
+            var windowScroll = document.documentElement.scrollTop;
+            var windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrollAmount = (windowScroll / windowHeight) * 100;
+            document.getElementById("mybar").style.width = scrollAmount + "%";
+        };
+    </script>
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; <a target="_blank" style="color: white;"
+                        href="http://www.codetemp.eu.org">Codetemp</a> 2021. All Rights Reserved.</div>
+                <a href="#!">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">Terms</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">FAQ</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Feedback Modal-->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title font-alt text-dark" id="feedbackModalLabel">Contact me via Whatsapp </h5>
+                    <button class="btn-close btn-close-dark" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body border-0">
+                    <form class="mt-3" method="post">
+                        <div class="mb-3">
+                            <input autocomplete="off" type="text" value="Halo" class="form-control" name="name"
+                                id="exampleFormControlinput1" readonly>
+                        </div>
+                        <div class="col-12">
+                            <a type="button" target="_blank" href="https://wa.me/6287732583746?text=Halo"
+                                class="btn btn-primary">Contact Me</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+    </script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script> -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
