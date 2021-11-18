@@ -49,133 +49,131 @@
     </nav>
     <script>
         function product() {
+            location.href = "index.html";
             document.getElementById("product").scrollIntoView();
         }
 
 
         function team() {
+            location.href = "index.html";
             document.getElementById("team").scrollIntoView();
         }
     </script>
     <!-- Call to action section-->
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h3 class="text-white typewrite wrap display-4" data-period="1000" data-type='["Start Shopping."]'>
-                    Welcome
-                </h3>
-                <a style="width: 200px;cursor: pointer;" class="btn btn-outline-light py-2 px-4 rounded-pill"
-                    onclick="product()">Shopping Now</a>
-            </div>
-        </div>
-    </section>
-
-
-    <div id="product" class="container mt-3 mb-4">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Shopping</li>
-            </ol>
-        </nav>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div data-aos="flip-left" class="col">
-                <div class="card shadow-sm">
-                    <img src="assets/img/lampu-3.jpg" class="bd-placeholder-img card-img-top" height="225">
-                    <div class="card-body">
-                        <p class="card-text">Lampu Tidur </p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="product-lampu.html" class="btn btn-sm btn-outline-secondary">Lihat</a>
-                                <a target="_blank"
-                                    href="https://wa.me/6287732583746?text=Halo,+Saya+ingin+membeli+lampu+hias"
-                                    class="btn btn-sm btn-outline-secondary">Beli
-                                    Sekarang</a>
-                            </div>
-                            <small class="text-muted">Rp. xx.xxx</small>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Macrame</li>
+                </ol>
+            </nav>
+            <div class="col-sm-10 col-lg-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/macrame.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/macrame-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/macrame.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
             </div>
 
-            <div data-aos="flip-left" class="col">
-                <div class="card shadow-sm">
-                    <img src="assets/img/macrame.jpg" class="bd-placeholder-img card-img-top" height="225">
-                    <div class="card-body">
-                        <p class="card-text">Macrame</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="product-macrame.html" class="btn btn-sm btn-outline-secondary">Lihat</a>
-                                <a target="_blank"
-                                    href="https://wa.me/6287732583746?text=Halo,+Saya+ingin+membeli+macrame"
-                                    class="btn btn-sm btn-outline-secondary">Beli
-                                    Sekarang</a>
-                            </div>
-                            <small class="text-muted">Rp. xx.xxx</small>
-                        </div>
+            <div class="col-lg-6">
+                <h2 class="font-custom">Macrame</h2>
+                <div class="d-flex gap-1 justify-content-center">
+                    <div class="col-6 list-group mx-0">
+                        <label class="list-group-item d-flex gap-2">
+                            Kategori&ensp; : Kerajinan
+                        </label>
+                        <label class="list-group-item d-flex gap-2">
+                            Stok &ensp;&ensp;&ensp;&ensp;: Belum Dicantumkan
+                        </label>
+                        <label class="list-group-item d-flex gap-2">
+                            Terjual &ensp;&ensp;: 0 Buah
+                        </label>
+                    </div>
+
+                    <div class="col-6 list-group mx-0">
+                        <label class="list-group-item d-flex gap-2">
+                            Harga &ensp;&ensp;: Belum Dicantumkan
+                        </label>
+
                     </div>
                 </div>
+                <br>
+                <div class="col-lg-12">
+                    <h4 class="font-custom">Deskripsi Product</h4>
+                    <p>Keterangan</p>
+                </div>
+                <form id="formID" name="formID" enctype="multipart/form-data" action="" method="post">
+                    <div class="col-lg-12 mt-5">
+                        <label class="list-group-item d-flex gap-2">
+                            Kuantitas <input type="number" id="txt2" onkeyup="sum();" name="xkuantitas"
+                                class="form-control" required>
+                        </label>
+                        <label class="list-group-item d-flex gap-1">
+                            Total &ensp;&ensp;&ensp; Rp <input id="txt3" type="text" value="" class="form-control"
+                                readonly>
+                        </label>
+                        <input type="number" id="txt1" onkeyup="sum();" name="xharga" value="Belum" hidden>
+                        <label class="list-group-item d-flex gap-2">
+
+                        </label>
+                        <!-- <button type="submit" style="width: 100%;" class="btn btn-secondary">Checkout Sekarang</button> -->
+                    </div>
+                </form>
             </div>
 
         </div>
-
     </div>
-    <main class="container" id="team">
-        <div class="my-3 p-3 bg-body rounded shadow-sm">
-            <h6 class="border-bottom pb-2 mb-0">Team Expo</h6>
-            <div class="d-flex text-muted pt-3">
-                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+    <script>
+        function sum() {
 
-                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
-                    <div class="d-flex justify-content-between">
-                        <strong class="text-gray-dark">Ersa Aulia Fatmawati</strong>
-                    </div>
-                    <span class="d-block">Absen : </span>
-                </div>
-            </div>
-            <div class="d-flex text-muted pt-3">
-                <img src="assets/feri.jpg" class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+            var harga = document.getElementById('txt1').value;
+            var kuantitas = document.getElementById('txt2').value;
+            var result = parseInt(harga) * parseInt(kuantitas);
+            var resultAkhir = result;
+            if (!isNaN(resultAkhir)) {
+                var number_string = resultAkhir.toString(),
+                    sisa = number_string.length % 3,
+                    rupiah = number_string.substr(0, sisa),
+                    ribuan = number_string.substr(sisa).match(/\d{3}/g);
 
-                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
-                    <div class="d-flex justify-content-between">
-                        <strong class="text-gray-dark">Feri Hidayatulloh</strong>
-                    </div>
-                    <span class="d-block">Absen : 13</span>
-                </div>
-            </div>
-            <div class="d-flex text-muted pt-3">
-                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+                if (ribuan) {
+                    separator = sisa ? '.' : '';
+                    rupiah += separator + ribuan.join('.');
+                }
+                document.getElementById('txt3').value = rupiah;
+            }
 
-                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
-                    <div class="d-flex justify-content-between">
-                        <strong class="text-gray-dark">M Robiuz </strong>
-                    </div>
-                    <span class="d-block">Absen : </span>
-                </div>
-            </div>
-            <div class="d-flex text-muted pt-3">
-                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
+        }
+    </script>
 
-                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
-                    <div class="d-flex justify-content-between">
-                        <strong class="text-gray-dark">Panca Argi Atmoko</strong>
-                    </div>
-                    <span class="d-block">Absen : </span>
-                </div>
-            </div>
-            <div class="d-flex text-muted pt-3">
-                <img class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32">
-
-                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
-                    <div class="d-flex justify-content-between">
-                        <strong class="text-gray-dark">Reva Novtania</strong>
-                    </div>
-                    <span class="d-block">Absen : </span>
-                </div>
-            </div>
-
-        </div>
-    </main>
     <div class="foot">
         <div class="containerx">
             <div class="progress-bar" id="mybar"></div>
